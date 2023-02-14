@@ -1,0 +1,18 @@
+[reply.counter_point_add]
+keyword.prefix = "{reward_point_add_word}"
+limit.user_var.trust.at_least = 4
+limit.lock = "reward_point"
+echo.lua = "counter.reply_point_add"
+
+[reply.counter_point_cost]
+keyword.prefix = "{reward_point_cost_word}"
+limit.user_var.trust.at_least = 4
+limit.lock = "reward_point"
+echo.lua = "counter.reply_point_cost"
+
+[reply.counter_point_rewrite]
+keyword.prefix = ["重置{reward_point_title}","改写{reward_point_title}"]
+limit.user_var.trust.at_least = 4
+limit.lock = "reward_point"
+echo.lua = "counter.reply_point_rewrite"
+

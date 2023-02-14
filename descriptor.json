@@ -1,0 +1,14 @@
+{
+    "title":"色子女仆·柜台骰娘",
+    "ver":"0.1.0(1)",
+    "author":"安研色Shiki",
+    "brief":"货币体系、卡券、商店机制",
+    "dice_build":636,
+    "comment":"",
+    "desc":"提供奖励积分和充值点券两种货币体系",
+    "helpdoc":{
+        "柜台后台":"{reward_point_add_word}/{reward_point_cost_word} 目标用户 增减值 //增减目标的{reward_point_title}",
+        "积分":"一种奖励积分(reward point)，作为每日签到，可用于兑换奖励",
+        "点券":"作为游戏内增值货币(in-game premium currency)，主要以卡密方式充值，可用于消费高价值商品"
+    }
+}

@@ -1,0 +1,4 @@
+[reply.reward_point_show]
+keyword = { match = ["{reward_point_show_word}","查询{reward_point_title}","我的{reward_point_title}"] }
+limit.cd.user = 5
+echo.lua = "counter.reply_reward_point_show"
